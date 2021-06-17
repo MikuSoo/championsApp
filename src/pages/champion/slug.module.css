@@ -1,0 +1,90 @@
+.wall img{
+    width: 100%;
+    height: auto;
+}
+.champtitle{
+    text-align: center;
+    font-size: 2.25rem;
+    margin-top: 3rem;
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 400;
+}
+.champname{
+    text-align:center;
+    font-size: 4rem;
+    color: var(--title-color);
+    font-style: bold;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.image{
+    flex: 0 0 30%;
+}
+.image img{
+    width: 100%;
+    height: auto;
+
+}
+.info{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex: 0 0 70%;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+.champtag{
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+}
+.attack{
+    margin-bottom: .5rem;
+}
+.defense{
+    margin-bottom: .5rem;
+}
+.magic{
+    margin-bottom: .5rem;
+}
+.difficulty{
+    margin-bottom: 1rem;
+}
+.lore{
+    font-size: 1.5rem;
+    text-transform: none;
+}
+@media screen and (max-width: 1200px) {
+    
+    .champtitle{
+        font-size: 1.5rem;
+    }
+    .champname{
+        font-size: 3rem;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info{
+        font-size: 1.125rem;
+        text-align: center;
+    }
+    .lore{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+}

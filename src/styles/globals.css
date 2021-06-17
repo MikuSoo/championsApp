@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+.regular{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+}
+.bold{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --background-color: #141518;
+    --text-color: #9F9F9F;
+    --title-color: #FEFEFE;
+    
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--background-color);
+}
+main{
+    padding: 0 1.5rem;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+.hometitle{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--title-color);
+}
+.small-title{
+    margin-top: 4rem;
+    font-size: 1.563rem;
+    font-weight: 700;
+    font-style: bold;
+}
+.big-title{
+    font-size: 4rem;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+.champ{
+    margin-top: 3rem;
+    flex: 0 0 25%;
+    padding: 0 .75rem;
+    margin-bottom: -3rem;
+    text-align: center;
+}
+.icon{
+    width: 100%;
+    padding-bottom: 0.02rem;
+}
+
+.name{
+    font-size: 2.25rem;
+    color: var(--text-color);
+    font-weight: 700;
+    font-style: bold;
+}
+.tags{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+}
+@media screen and (max-width: 1200px) {
+    .small-title{
+        font-size: 1.125rem;
+    }
+    .big-title{
+        font-size: 2.25rem;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+    .tags{
+        font-size: 1.125rem;
+    }
+}

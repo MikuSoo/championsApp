@@ -1,0 +1,20 @@
+.HeaderContainer{
+    height: 4rem;
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    margin-left: 7.5rem;
+    width: 7%;
+    height: auto;
+}
+@media screen and (max-width: 1200px) {
+
+    .logo{
+        margin-left: 5vw;
+        width: 20%;
+        height: auto;
+    }
+    
+}
